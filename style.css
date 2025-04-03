@@ -1,12 +1,13 @@
 
 @media (max-width:1400px) and (min-width:480px) {
     h1 {
-        font-size: 10rem;
+        font-size: 20rem;
     }
-    div {
+    body {
         display: block;
-        flex-basis: auto;
-        flex-wrap: nowrap;
+        flex-basis: 300px;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
         justify-content: center;
     }
 }
@@ -122,6 +123,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
+    padding-bottom: 0px;
     background-color: rgb(3, 3, 3);
     display: block;
     text-align: center;
