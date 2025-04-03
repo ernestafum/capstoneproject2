@@ -5,9 +5,9 @@
     }
     body {
         display: block;
-        flex-basis: 300px;
+        flex-basis: auto;
         flex-wrap: wrap;
-        flex-direction: row-reverse;
+        flex-direction:row-reverse;
         justify-content: center;
     }
 }
