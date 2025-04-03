@@ -12,6 +12,11 @@
     .bottom-container {
         margin-bottom: auto;
     }
+
+    p {
+        text-align: center;
+        text-wrap: wrap;
+    }
 }
 
 body {
@@ -96,6 +101,7 @@ h2 {
     color: rgb(212, 201, 190);
     font-size: 2rem;
     text-align: center;
+    word-spacing: 1rem;
  }
 
  .skills {
