@@ -6,9 +6,8 @@
     body {
         display: block;
         flex-basis: auto;
-        flex-wrap: wrap;
-        flex-direction:row-reverse;
         justify-content: center;
+        text-align: center;
     }
     .bottom-container {
         margin-bottom: auto;
@@ -19,6 +18,7 @@ body {
     background-color: rgb(241, 239, 236);
     display: block;
     font-family: "Merriweather", serif;
+    text-align: center;
 }
 
 .top-image  {
@@ -133,7 +133,7 @@ h2 {
  }
 
  .footer-link {
-    color:  rgb(18, 52, 88);
+    color:  #66bfbf;
     margin: 20px;
     padding: 20px;
  }
