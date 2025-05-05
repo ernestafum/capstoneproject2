@@ -14,16 +14,16 @@ body {
             text-align: center;
     }
     h1 {
-        font-size: 15rem;
+        font-size: 20rem;
     }
     h2 {
-        font-size: 15rem;
+        font-size: 20rem;
     }
     h3 {
-        font-size: 14rem;
+        font-size: 19rem;
     }
     p {
-        font-size: 14rem;
+        font-size: 19rem;
     }
     image {
         padding-bottom: 40px;
@@ -37,6 +37,9 @@ body {
     }
     .bottom-container {
         margin-bottom: auto;
+    }
+    .footer-link {
+        font-size: 19rem;
     }
 }
 
@@ -113,6 +116,10 @@ h3 {
     color: rgb(3, 3, 3);
     font-size: 1.5rem;
     text-align: center;
+ }
+
+ .reach-out {
+    color: rgb(241, 239, 236);
  }
 
  .skills {
