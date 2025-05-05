@@ -1,75 +1,96 @@
+body {
+    display: block;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
 
-@media (max-width:600px) and (min-width:2400px) {
-    h1 {
-        font-size: 20rem;
-    }
+@media (max-width: 375px) and (min-width: 1600px) {
     body {
-        display: block;
-        flex-basis: auto;
-        justify-content: center;
-        text-align: center;
+            display: block;
+            width: auto;
+            height: auto;
+            justify-content: center;
+            text-wrap: wrap;
+            text-align: center;
+    }
+    h1 {
+        font-size: 15rem;
+    }
+    h2 {
+        font-size: 15rem;
+    }
+    h3 {
+        font-size: 14rem;
+    }
+    p {
+        font-size: 14rem;
+    }
+    image {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        border-radius: 50%;
+    }
+    .video {
+         display: block;
+         width: auto;
+         height: auto;
     }
     .bottom-container {
         margin-bottom: auto;
     }
-
-    p {
-        text-align: center;
-        text-wrap: wrap;
-    }
-}
-
-body {
-    background-color: rgb(241, 239, 236);
-    display: block;
-    font-family: "Merriweather", serif;
-    text-align: center;
-}
-
-.top-image  {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    border-radius: 10%;
 }
 
 .top-container {
-    background-color:  rgb(212, 201, 190);
-    position: relative;
+    background-color: rgb(241, 239, 236);
+    padding-top: 20px;
     margin-bottom: 0px;
 }
 
-.title-text {
+.first-intro {
     margin-top: 50px;
     margin-bottom: 0px;
-    padding-bottom:50px ;
+    padding-bottom:40px ;
 }
 
 h1 {
     color: rgb(18, 52, 88); 
-    font-size: 5.5rem;
-    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    text-decoration: underline;
     text-align: center;
+}
+
+.ernest {
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
 }
 
 .profile {
     margin-top: 0px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
-h2 {
+h3 {
     color: rgb(18, 52, 88);
-    font-size: 2rem;
-    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
 }
 
- .web {
+ .pro {
     text-decoration: underline;
  }
 
- .middle-container {
-    background-color: rgb(18, 52, 88);
+ .second-container {
+    background-color: rgb(212, 201, 190);
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0px;
@@ -77,62 +98,94 @@ h2 {
  }
 
  .image { 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     border-radius: 50%;
- }
-
- h2 {
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    color:#66bfbf;
-    font-size: 2rem;
-    font-family: "Merriweather", serif;
-    font-weight: bold;
  }
 
  p {
     margin-top: 30px;
     padding-top: 5px;
-    color: rgb(212, 201, 190);
-    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: rgb(3, 3, 3);
+    font-size: 1.5rem;
     text-align: center;
-    word-spacing: 1rem;
  }
 
  .skills {
-    font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-content: center;
-    padding: 50px;
+     align-content: center;
+     margin-top: 30px;
+     padding-top: 15px;
+     padding-bottom: 5px;
+     margin-bottom: 0px;
  }
+
+ .list {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(3, 3, 3);
+    text-align: justify;
+ }
+
+ .third-container{
+    background-color: rgb(18, 52, 88);
+    margin-top: 0px;
+ }
+
+
+ .video {
+     display: block;
+     margin-top: 0px;
+     margin-left: 0px;
+     padding-left: 0px;
+     margin-right: 0px;
+     padding-right: 0px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+ }
+
+ hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+    padding-top: 0px;
+ }
+ 
  
  .about {
     display: inline-block;
     font-size: 2rem;
-    align-items: left;
-    margin: 10px 0px;
-    padding: 10px 0px;
-    padding-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    text-align: center;
  }
 
  .contact {
     display: inline-block;
     font-size: 2rem;
-    padding: 10px 0px;
-    margin: 10px 0px;
-    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+ }
+
+ .btn {
+    color: #eaf6f6;
  }
 
  .bottom-container {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background-color: rgb(3, 3, 3);
     display: block;
     text-align: center;
@@ -144,13 +197,7 @@ h2 {
     padding: 20px;
  }
 
- .video {
-    display: block;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
- }
+.copyright {
+    color: #66bfbf;
+    text-align: center;
+}
