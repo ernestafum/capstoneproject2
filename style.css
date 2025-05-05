@@ -14,16 +14,16 @@ body {
             text-align: center;
     }
     h1 {
-        font-size: 20rem;
+        font-size: 20px;
     }
     h2 {
-        font-size: 20rem;
+        font-size: 20px;
     }
     h3 {
-        font-size: 19rem;
+        font-size: 19px;
     }
     p {
-        font-size: 19rem;
+        font-size: 19px;
     }
     image {
         padding-bottom: 40px;
@@ -39,7 +39,7 @@ body {
         margin-bottom: auto;
     }
     .footer-link {
-        font-size: 19rem;
+        font-size: 19px;
     }
 }
 
@@ -200,11 +200,13 @@ h3 {
 
  .footer-link {
     color:  #66bfbf;
+    font-size: 1.3rem;
     margin: 20px;
     padding: 20px;
  }
 
 .copyright {
     color: #66bfbf;
+    font-size: 1.3rem;
     text-align: center;
 }
